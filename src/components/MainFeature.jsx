@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { toast } from 'react-toastify';
+  const ClipboardListIcon = getIcon('ClipboardList');
+                <ClipboardListIcon size={48} />
 import { format } from 'date-fns';
 import getIcon from '../utils/iconUtils';
 
